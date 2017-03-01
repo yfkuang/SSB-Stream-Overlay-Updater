@@ -1,0 +1,276 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*-----
+General
+-----*/
+body {
+	background: url('../img/bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow-x: hidden;
+	margin: 0;
+}
+
+.wrapper {
+	max-width: 1024px;
+	margin-left: auto;
+	margin-right: auto;	
+}
+/*--------
+Typography
+--------*/
+@font-face {
+	font-family: "Open Sans";
+	src: url(../font/OpenSans-Regular.ttf);
+}
+
+body {
+	font-family: "Open Sans";	
+}
+
+h1, h2, h3, h4, h5 {
+	margin: 0;	
+}
+
+h1, h2, h3{
+	padding-left: 25px;	
+}
+
+h1 {
+	letter-spacing: 1pt;
+	font-weight: 400;	
+}
+
+h3 {
+	cursor: pointer;
+	display: inline-block;
+	transition-duration: 0.25s;
+}
+
+h3:hover {
+	color: #49B050;
+	transition-duration: 0.25s;
+}
+
+h4 {
+	margin-bottom: 3px;	
+	margin-top: 7px;
+	font-weight: 400;
+}
+
+/*--------
+Navigation
+--------*/
+a {
+	text-decoration: none;	
+}
+
+/*-------------
+Header Elements
+-------------*/
+header {
+	background: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-bottom: solid 5px #49B050;
+}
+
+.logo {
+	height: 65px;
+	padding-bottom: 5px;
+}
+
+header ul {
+	display: inline;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+header li {
+	display: inline;
+	
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+header li svg {
+	margin-top: 12.5px;
+	width: auto;
+	height: 40px;
+	fill: gray;
+	transition-duration: 0.25s;
+}
+
+#link-youtube:hover {
+	fill: #b31217;
+	transition-duration: 0.25s;
+}
+
+#link-twitch:hover {
+	fill: #6441A4;
+	transition-duration: 0.25s;
+}
+
+#link-twitter:hover {
+	fill: #1DA1F2;
+	transition-duration: 0.25s;
+}
+/*--------------
+Content Elements
+--------------*/
+#content {
+	margin-top: 90px;
+	padding: 35px;
+	border-radius: 2em;
+	background: rgba(0,0,0,0.6);
+	color: white;
+}
+
+#content a {
+	color: #999999;
+	transition-duration: 0.25s;
+}
+
+#content a:hover {
+	color: #bbbbbb;
+	transition-duration: 0.25s;
+}
+
+legend {
+	cursor: pointer;	
+}
+
+.playerContainer {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.playerLeft {
+	float: left;
+	width: 49%;
+	box-sizing: border-box;
+}
+
+.playerRight {
+	float: right;
+	width: 49%;
+	box-sizing: border-box;
+}
+
+/*-----------
+Form Elements
+-----------*/
+form {
+	margin: 0;	
+}
+
+fieldset {
+	border-radius: 1em;	
+	padding: 20px;
+}
+
+.playerLeft input, .playerRight input, .playerLeft select, .playerRight select{
+	width: 100%;	
+}
+
+input {
+	padding: 5px;	
+}
+
+input[name=gametype] {
+	width: 35%;	
+}
+
+input[type=button] {
+	background: #999999;
+	color: white;
+	padding: 10px;
+	display: block;
+	border-radius: 1em;
+	border: solid 2px #999999;
+	cursor: pointer;
+	transition-duration: 0.25s;
+}
+
+input[type=submit]:hover {
+	border: solid 2px white;
+	transition-duration: 0.25s;
+}
+
+input[type=submit]:active {
+	border: solid 2px white;
+	background: #444444;
+	cursor: pointer; 
+}
+
+input[type=submit] {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	background: #999999;
+	color: white;
+	padding: 10px;
+	display: block;
+	border-radius: 1em;
+	border: solid 2px #999999;
+	cursor: pointer;
+	transition-duration: 0.25s;
+}
+
+input[type=submit]:hover {
+	border: solid 2px white;
+	transition-duration: 0.25s;
+}
+
+input[type=submit]:active {
+	border: solid 2px white;
+	background: #444444;
+	cursor: pointer; 
+}
+
+select {
+	padding: 5px;
+	width: 35%;
+}
+/*-----------
+Footer Elements
+--------------*/
+footer {
+	background: #49B050;
+	position: relative;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	padding: 35px;
+	border-radius: 2em;
+	max-width: 1024px;
+}
+
+footer p {
+	font-size: 10pt;
+	text-align: center;
+	color: white;
+}
+
+footer a {
+	color: #454545;
+	transition-duration: 0.5s;
+}
+
+footer a:hover {
+	color: #062709;
+	transition-duration: 0.5s;
+}
+
+/*---
+Misc.
+---*/
+.clear {
+	clear: both;	
+}
