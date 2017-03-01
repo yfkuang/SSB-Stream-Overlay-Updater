@@ -1,0 +1,46 @@
+1.0.0
+* Added placeholders in inputs
+* Added and specified Singles, Doubles, Commentators and Top 8. Mostly useless until I add overlays for these
+* [Broken] Added link to Doubles, Commentators and Top 8 overlay
+* Added collapsible sections
+* Made CSS toggleable
+* Redid the CSS and HTML to social media links
+* Hosted on yfkuang.com THIS SHIT IS LIVE, BABY!
+
+Stuff I wanna add:
+- Finish adding my overlays
+- AJAX PHP so no more refreshing for new info
+- AJAX for faster load?
+- Obtain Top 8 bracket from Challonge and smash.gg API so no more manual input
+
+0.3.0
+* Added input "Overlay Style"
+* Included overlay:
+	- Melee - Basic Green
+	- Melee - Basic Red [Broken]
+	- Melee - Basic Blue [Broken]
+	- Melee - Basic White [Broken]
+	- Melee - Basic Black [Broken]
+* Added link to overlay
+
+0.2.0
+* Added CSS
+* Removed inputs:
+	- Commentator Left
+	- Commentator Right
+	- Twitter
+* Input "Character" changed to drop-down list
+* Social Media Links to Webpage
+
+0.1.0
+* Hosted locally
+* Added inputs:
+	- Gametype
+	- Player Left
+	- Player Right
+	- Character
+	- Score
+	- Commentator Left
+	- Commentator Right
+	- Twitter
+* Pressing update stays on the same page while updating overlay
